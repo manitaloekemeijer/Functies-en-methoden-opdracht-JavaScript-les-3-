@@ -40,7 +40,7 @@ console.log(countStudents);
 console.log("opdracht 1b: ")
 
 function gradeCumLaude(array) {
-    let countStudents = null;
+    let countStudents = 0;
 
     for (let i = 0; i < array.length; i++) {
         if (array[i] >= 8) {
@@ -51,7 +51,10 @@ function gradeCumLaude(array) {
 }
 
 const gradeVal2 = gradeCumLaude(grades);
-console.log(gradeVal2);
+const gradeVal3 = gradeCumLaude([6, 4, 5]);
+const gradeVal4 = gradeCumLaude([8, 9, 4, 6, 10])
+
+console.log(gradeVal2, gradeVal3, gradeVal4);
 
 /* Opdracht  2: Gemiddeld cijfer */
 
@@ -144,3 +147,5 @@ function highestGradeSearcher(array) {
 }
 
 console.log(highestGradeSearcher(grades));
+console.log(highestGradeSearcher([6, 4, 5]));
+console.log(highestGradeSearcher([8, 9, 4, 6, 10]));
