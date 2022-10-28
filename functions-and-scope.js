@@ -88,7 +88,7 @@ console.log(average);
 console.log("opdracht 2b: ");
 
 function averageGrade(array) {
-    let totalOfGrades = null;
+    let totalOfGrades = 0;
     for (let i = 0; i < array.length; i++) {
         totalOfGrades = totalOfGrades + array[i];
     }
