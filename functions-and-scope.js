@@ -71,7 +71,7 @@ console.log("opdracht 2a: ")
 
 let sum = 0;
 for (let i = 0; i < grades.length; i++) {
-    sum = sum + grades [i];
+    sum += grades [i];
 }
 const average = sum / grades.length;
 console.log(average);
